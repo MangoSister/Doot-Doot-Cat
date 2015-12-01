@@ -1,0 +1,240 @@
+<LevelData>
+  
+  <Levels>
+    <!--level 1: empty-->
+    <Level>
+      <bgIndex>0</bgIndex>
+      <ground>false</ground>
+      <sideIndex>0</sideIndex>
+    </Level>
+    
+    <!--level 2: empty-->
+    <Level>
+      <bgIndex>1</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+    </Level>
+
+    <!--level 3: one still dog at center-->
+    <Level>
+      <bgIndex>2</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+      <Dogs>
+        <Dog>
+          <_posX>0</_posX>
+          <_posY>0</_posY>
+          <_wanderRange>0</_wanderRange>
+          <_wanderFreq>1</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+      </Dogs>
+    </Level>
+
+    <!--level 4: one still dogs-->
+    <Level>
+      <bgIndex>3</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+      <Dogs>
+        <Dog>
+          <_posX>-2</_posX>
+          <_posY>2</_posY>
+          <_wanderRange>0</_wanderRange>
+          <_wanderFreq>1</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+      </Dogs>
+    </Level>
+
+    <!--level 5: one moving dog-->
+    <Level>
+      <bgIndex>4</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+      <Dogs>
+        <Dog>
+          <_posX>0</_posX>
+          <_posY>3</_posY>
+          <_wanderRange>6</_wanderRange>
+          <_wanderFreq>0.5</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+      </Dogs>
+    </Level>
+
+    <!--level 6: two still dog & power up-->
+    <Level>
+      <bgIndex>5</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+      <Dogs>
+        <Dog>
+          <_posX>-3</_posX>
+          <_posY>2</_posY>
+          <_wanderRange>0</_wanderRange>
+          <_wanderFreq>0.5</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+        <Dog>
+          <_posX>3</_posX>
+          <_posY>2</_posY>
+          <_wanderRange>0</_wanderRange>
+          <_wanderFreq>0.5</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+      </Dogs>
+
+      <Powerups>
+        <Powerup>
+          <_posX>0</_posX>
+          <_posY>2</_posY>
+        </Powerup>
+      </Powerups>
+    </Level>
+
+    <!--level 7: two still-->
+    <Level>
+      <bgIndex>6</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+      <Dogs>
+        <Dog>
+          <_posX>-4</_posX>
+          <_posY>4.5</_posY>
+          <_wanderRange>0</_wanderRange>
+          <_wanderFreq>1</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+        <Dog>
+          <_posX>4</_posX>
+          <_posY>4.5</_posY>
+          <_wanderRange>0</_wanderRange>
+          <_wanderFreq>1</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+      </Dogs>
+    </Level>
+
+    <!--level 8: plane-->
+    <Level>
+      <bgIndex>7</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+
+      <Planes>
+        <Plane>
+          <_posX>-9</_posX>
+          <_posY>4</_posY>
+          <_direction>true</_direction>
+          <_flyDist>20</_flyDist>
+          <_flySpeed>5</_flySpeed>
+          <_waitTime>5</_waitTime>
+        </Plane>
+      </Planes>
+    </Level>
+
+    <!--level 9: plane & moving dog-->
+    <Level>
+      <bgIndex>8</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+      <Dogs>
+        <Dog>
+          <_posX>0</_posX>
+          <_posY>-2</_posY>
+          <_wanderRange>6</_wanderRange>
+          <_wanderFreq>0.5</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+      </Dogs>
+      <Planes>
+        <Plane>
+          <_posX>9</_posX>
+          <_posY>4</_posY>
+          <_direction>false</_direction>
+          <_flyDist>20</_flyDist>
+          <_flySpeed>5</_flySpeed>
+          <_waitTime>5</_waitTime>
+        </Plane>
+      </Planes>
+    </Level>
+
+    <!--level 10: two moving dogs & power up-->
+    <Level>
+      <bgIndex>9</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+      <Dogs>
+        <Dog>
+          <_posX>0</_posX>
+          <_posY>3</_posY>
+          <_wanderRange>6</_wanderRange>
+          <_wanderFreq>0.5</_wanderFreq>
+          <_wanderOffset>0</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+        <Dog>
+          <_posX>6</_posX>
+          <_posY>-2</_posY>
+          <_wanderRange>6</_wanderRange>
+          <_wanderFreq>0.5</_wanderFreq>
+          <_wanderOffset>2</_wanderOffset>
+          <_fallingAcc>1</_fallingAcc>
+          <_maxFallingSpeed>3</_maxFallingSpeed>
+        </Dog>
+      </Dogs>
+
+      <Powerups>
+        <Powerup>
+          <_posX>0</_posX>
+          <_posY>1</_posY>
+        </Powerup>
+      </Powerups>
+    </Level>
+
+    <!--level 11: empty-->
+    <Level>
+      <bgIndex>10</bgIndex>
+      <ground>false</ground>
+      <sideIndex>1</sideIndex>
+    </Level>
+
+
+    <!--level 12: final-->
+    <Level>
+      <bgIndex>11</bgIndex>
+      <ground>false</ground>
+      <sideIndex>2</sideIndex>
+
+      <Miscs>
+        <Misc>
+          <_type>4</_type>
+          <_posX>0</_posX>
+          <_posY>-3</_posY>
+          <_size>1</_size>
+        </Misc>
+      </Miscs>
+
+    </Level>
+
+  </Levels>
+
+</LevelData>
